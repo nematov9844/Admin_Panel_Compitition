@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$01S5YKzJ9CYb/6JdCqaHveQMEjll4neh77J8vZlH9igGEbpWYyx0i",
+      "id": 1
+    }
+  ],
+  "managers": [
+    {
+      "id": 1,
+      "name": "manager1",
+      "email": "manager1@manager1",
+      "last_name": "manager1",
+      "type": "manager",
+      "isActive": true,
+      "tasks": [
+        {
+          "id": 1,
+          "name": "hodim qabul qilish",
+          "type": "manager"
+        },
+        {
+          "id": 4,
+          "name": "hodim qabul qilish",
+          "type": "manager"
+        },
+        {
+          "name": "ewe",
+          "description": "ewer",
+          "deadline": "1212",
+          "priority": "medium",
+          "type": "manager",
+          "status": "pending",
+          "id": 4
+        },
+        {
+          "name": "Ro'zimuhammad",
+          "description": "okpiugvfhdf",
+          "deadline": "565",
+          "priority": "medium",
+          "type": "manager",
+          "status": "pending",
+          "id": 6
+        },
+        {
+          "name": "Ro'zimuhammad",
+          "description": "tcfgh",
+          "deadline": "34",
+          "priority": "medium",
+          "type": "manager",
+          "status": "pending",
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "manager2",
+      "email": "manager2@manager2",
+      "last_name": "manager2",
+      "type": "manager",
+      "isActive": true,
+      "tasks": []
+    },
+    {
+      "name": "Ro'zimuhammad323",
+      "last_name": "Nematov",
+      "email": "jeki2004114r@gmail.com",
+      "type": "manager",
+      "isActive": true,
+      "tasks": [],
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "employee1",
+      "email": "employee1@employee1",
+      "last_name": "employee1",
+      "type": "employee",
+      "tasks": [
+        {
+          "name": "Ro'zimuhammad",
+          "description": "ef",
+          "deadline": "2",
+          "priority": "low",
+          "type": "employee",
+          "status": "pending",
+          "id": 4
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "name": "Ro'zimuhammad",
+      "last_name": "Nematov",
+      "email": "jeki2004114r@gmail.com",
+      "type": "employee",
+      "isActive": true,
+      "id": 5
+    },
+    {
+      "name": "employee1e",
+      "last_name": "employee1",
+      "email": "employee1@email.com",
+      "type": "employee",
+      "isActive": false,
+      "id": 7
+    },
+    {
+      "name": "Ro'zimuhammad",
+      "last_name": "Nematov",
+      "email": "jeki2004114r@gmail.com",
+      "type": "employee",
+      "isActive": true,
+      "id": 8
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "hodim qabul qilish",
+      "type": "manager",
+      "description": "qllhged3232",
+      "deadline": "0",
+      "status": "pending",
+      "priority": "low"
+    },
+    {
+      "id": 2,
+      "name": "product qadoqlash",
+      "type": "employee",
+      "description": "",
+      "deadline": "0",
+      "status": "pending"
+    }
+  ]
+}
